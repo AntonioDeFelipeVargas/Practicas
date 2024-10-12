@@ -13,3 +13,7 @@ const isPalindrome= function (cadena)
 let prueba="Anita lava  tina" ; 
 
 console.log(isPalindrome(prueba));
+
+ prueba="Anita lava la tina" ; 
+
+console.log(isPalindrome(prueba));
