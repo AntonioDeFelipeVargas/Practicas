@@ -6,6 +6,7 @@ const secretSocietyName = function (names)
     {
         secretName+=names[i][0]
     }
+    secretName=secretName.toUpperCase().split("").sort().join("")
     return secretName
 }
 
